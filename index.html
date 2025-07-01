@@ -306,7 +306,15 @@
         </div>
       </div>
     </div>
-    HOLA
+    <div id="mensaje-amor" style="display: none; text-align: center; font-size: 2rem; color: #ff69b4; margin-top: 30px;">
+      TE AMO MI AMOR
+    </div>
+    <script>
+        setTimeout(() => {
+          const mensaje = document.getElementById('mensaje-amor');
+          mensaje.style.display = 'block';
+        }, 5000); // 5000 milisegundos = 5 segundos
+    </script>
     <script src="main.js"></script>
   </body>
 </html>
